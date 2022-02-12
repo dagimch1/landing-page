@@ -1,0 +1,112 @@
+/* Partial CSS Reset from https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+    height: 500px;
+    background-color: #1F2937;
+    padding: 20px 550px 200px 400px;
+
+    
+}
+
+ul:first-child {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.right-link {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    margin-bottom: 120px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.content-header {
+    display: flex;
+}
+
+.content-header-1 {
+    width: 400px;
+}
+
+.content-header-2 {
+    width: 500px;
+    height: 220px;
+    background: grey;
+    margin-left: auto;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 115px;
+    height: 35px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    margin-top: 10px;
+}
