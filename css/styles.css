@@ -154,3 +154,32 @@ button {
     font-size: 20px;
     text-align: center;
 }
+
+.quote {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 750px;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.quote-name {
+    position: absolute;
+    right: 0;
+    font-style: normal;
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: 800;
+
+   
+}
