@@ -183,3 +183,43 @@ button {
 
    
 }
+
+.action-call {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    width: 1100px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    color: white;
+}
+
+.left-side p {
+    font-size: 19px;
+}
+
+.button-2 {
+    width: 124px;
+    height: 40px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+.right-side {
+    margin-left: 145px;
+}
