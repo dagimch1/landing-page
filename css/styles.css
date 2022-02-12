@@ -43,8 +43,9 @@ body {
 header {
     height: 500px;
     background-color: #1F2937;
-    padding: 20px 550px 200px 400px;
+    padding: 20px 450px 200px 450px;
     order: 1;
+    
     
 }
 
