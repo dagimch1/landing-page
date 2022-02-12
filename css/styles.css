@@ -44,7 +44,7 @@ header {
     height: 500px;
     background-color: #1F2937;
     padding: 20px 550px 200px 400px;
-
+    order: 1;
     
 }
 
@@ -120,19 +120,21 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    order: 2;
 }
 
 .information h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin-top: 33px;
+    margin-top: 56px;
     margin-bottom: 38px;
 }
 
 .grid-row {
     display: flex;
     gap: 33px;
+    flex-wrap: wrap;
 }
 
 .grid-1,
@@ -161,6 +163,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 3;
 }
 
 .quote-text {
@@ -189,6 +192,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    order: 4;
 }
 
 .action-box {
@@ -232,4 +236,5 @@ footer {
     align-items: center;
     color: white;
     font-size: 18px;
+    order: 5;
 }
