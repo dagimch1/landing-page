@@ -37,7 +37,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  /* With body set to column, it is possible to reorder sections using the order property in the child elements */
 }
 
 header {
@@ -45,8 +46,6 @@ header {
     background-color: #1F2937;
     padding: 20px 450px 200px 450px;
     order: 1;
-    
-    
 }
 
 ul:first-child {
@@ -184,8 +183,6 @@ button {
     color: #1F2937;
     font-size: 30px;
     font-weight: 800;
-
-   
 }
 
 .action-call {

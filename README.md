@@ -11,6 +11,11 @@ Skills demonstrated:
 3. Use css position property to be more precise.
 4. Center things using flex.
 5. Basic css styling and targeting using class and ids.
+6. Flex wrap
+
+Missing features:
+
+Use of flex grow and shrink to ensure better responsiveness. May add later.
 
 Skill gaps:
 
