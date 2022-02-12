@@ -223,3 +223,13 @@ button {
 .right-side {
     margin-left: 145px;
 }
+
+footer {
+    height: 99px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
